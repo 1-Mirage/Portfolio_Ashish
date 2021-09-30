@@ -1,0 +1,246 @@
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+
+
+.margin-md 
+{
+  margin: 2rem;
+}
+
+
+.container 
+{
+  padding: 0rem 1rem;
+}
+
+.container-center 
+{
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+
+
+.link 
+{
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary 
+{
+  
+  padding: 0.6rem 1.2rem;
+  background-color: #00ccff;
+  color: #fff;
+  margin: 1rem auto;
+  border-radius: 2rem;
+}
+
+.link-secondary 
+{
+  
+  margin: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid #00ccff;
+  color: #00ccff;
+}
+
+
+
+.list-non-bullet 
+{
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.list-item-inline
+ {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+
+
+.navigation 
+{
+  background-color: #00ccff;
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand 
+{
+  font-weight: bold;
+}
+
+.nav-brand a 
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigation .nav-pills 
+{
+  text-align: right;
+  margin: 0.6rem 1rem;
+}
+
+.navigation .link 
+{
+  color: white;
+}
+
+.navigation .link-active 
+{
+  font-weight: bold;
+}
+
+
+
+.hero 
+{
+  padding: 2rem;
+  padding-top: 5rem;
+}
+
+.hero .hero-img 
+{
+
+  width: 400px;
+  height: 500px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading
+ {
+  text-align: center;
+  padding-top: 1rem;
+  color: darkgrey;
+}
+
+.hero .hero-heading .heading-inverted 
+{
+  color: #00ccff;
+}
+
+
+
+.section
+ {
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.section h1 
+{
+  text-align: center;
+}
+
+.ow 
+{
+  background-color: white;
+}
+
+
+
+.footer 
+{
+  background-color: #00ccff;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link 
+{
+  color: white;
+}
+
+.footer .footer-header 
+{
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul 
+{
+  padding-inline-start: 0px;
+}
+
+
+.showcase-list
+ {
+  
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 3rem auto;
+}
+.showcase-list h1 
+{
+  margin: 0.5rem;
+}
+
+.showcase-list p 
+{
+  padding-bottom: 1rem;
+}
+
+
+
+.showcase-blog 
+{
+  padding-bottom: 6rem;
+}
+
+@media (max-width: 900px)
+ {
+  body 
+  {
+    max-width: 95%;
+    width: 100%;
+  }
+
+  .list-item-inline 
+  {
+    display: inline;
+    padding: 0rem;
+  }
+
+  .container-center 
+  {
+    width: auto;
+  }
+
+  .link-primary 
+  {
+    display: block;
+  }
+}
+
+#Solid-blogs
+{
+  text-align: center;
+  background-color: blue;
+  margin: 8% 20%;
+  border-radius: 1em;
+  
+}
+h3{
+  background-color: cornsilk;
+}
