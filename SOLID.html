@@ -16,8 +16,13 @@
         <div>
             <strong>A class should have only one reason to change</strong>
             <div>
-            Every module or class should have responsibility over a single part of the functionality provided by software and that responsibility should be entirely
-            encapsulated by the class.
+                <ul>
+            <li>Every module or class should have responsibility over a single part of the functionality provided by software and that responsibility should be entirely
+            encapsulated by the class.</li>
+            <li>Everything int the class should be related to that with single purpose</li>
+            <li>There can be many member int the class as long as they are related to the single responsibility</li>
+            <li>Using Single responsibility principle classes become smaller and cleaner</li>
+            </ul>
             </div>
         </div>
 
@@ -25,8 +30,10 @@
         <div>
             <strong>No client should be forced to depend on method it does not use</strong>
             <div>
-                One fat interface need to be split to many smalls and relevant interfaces so that clients can know about the interfaces
-                that are relevant to them
+                <ul>
+                <li>One fat interface need to be split to many smalls and relevant interfaces so that clients can know about the interfaces
+                that are relevant to them.</li>
+
             </div>
         </div>
         <h3>OPEN/CLOSED PRINCIPLES</h3>
@@ -34,14 +41,26 @@
             <ul>
             <li>Software entities such as classes,modules,functions etc. should be open for extension , but closed for modification.</li>
             <li>Any new functionality should be implemented by adding new classes,attributes and methods instead of changing the current ones or existing one.</li>
-
+            <li>The simplest way to apply Open closed Principle is to implement the new functinality on new derived classes</li>
+            <li>It also allows users to access the original class with abstract interface.</li>
         </div>
         <h3>Liskov Substitution</h3>
         <div>
             <strong>If S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without altering any of the desirable properties of that 
                 program.</strong>
-
-                This principle aims to enforce consistency so that the parent Class or its child Class can be used in the same way without any errors.    
+             <ul>
+                
+                 <li>
+                  Derived types must be completely subsituable for their base types
+                 </li>
+                 <li>
+                    This principle aims to enforce consistency so that the parent Class or its child Class can be used in the same way without any errors.  
+                 </li>
+                 <li>
+                     It is extension of Open Closed principle.
+                 </li>
+             </ul>
+                  
         </div>
         <h3>Dependency Inversion</h3>
         <div>
@@ -52,6 +71,9 @@
                 <li>
                     Abstractions should not depend on details. Details should depend on abstractions.
 
+                </li>
+                <li>
+                    The interaction between high level and low level modules should be thought of as an abstract interaction between them.
                 </li>
             </ul>
 
