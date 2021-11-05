@@ -18,16 +18,26 @@ body {
 .container 
 {
   padding: 0rem 1rem;
+ 
 }
 
 .container-center 
 {
-  max-width: 900px;
+  max-width: 800px;
+  
   width: 100%;
+  
   margin: auto;
+  background-color:blue;
+  border-radius: 5%;
+  clip-path: circle(8% at 50% 0%);
+  transition: all .5s ease-in-out;
 }
 
-
+.container-center:hover{
+  
+    clip-path: circle(75%);
+}
 .link 
 {
   box-sizing: border-box;
@@ -73,7 +83,7 @@ body {
 
 .navigation 
 {
-  background-color: #00ccff;
+  background-color:black;
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
@@ -150,16 +160,13 @@ body {
   text-align: center;
 }
 
-.ow 
-{
-  background-color: white;
-}
+
 
 
 
 .footer 
 {
-  background-color: #00ccff;
+  background-color:black;
   padding: 4rem 2rem;
   text-align: center;
   color: white;
@@ -187,7 +194,7 @@ body {
  {
   
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   text-align: center;
   margin: 3rem auto;
 }
@@ -236,11 +243,11 @@ body {
 #Solid-blogs
 {
   text-align: center;
-  background-color: blue;
+  background-color:cornflowerblue;
   margin: 8% 20%;
   border-radius: 1em;
   
 }
 h3{
-  background-color: cornsilk;
+  color:rgb(182, 228, 231);
 }
